@@ -45,7 +45,7 @@ Now add the following to /etc/snmp/snmpd.conf:</br>
 `pip3 datetime`
 
 #### Systemd-Timers
-`sudo cp {get-temp.service,get-temp.timer,lcd-temperature.service,lcd-temperature.timer} /etc/systemd/systemd/system`
+`sudo cp {get-temp.service,get-temp.timer,lcd-temperature.service,lcd-temperature.timer} /etc/systemd/systemd/system`</br>
 `sudo systemctl enable get-temp.timer`</br>
 `sudo systemctl start get-temp.timer` </br>
 `sudo systemctl enable lcd-temperature.timer`</br>
