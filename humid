@@ -1,0 +1,4 @@
+#!/bin/bash
+echo .1.3.6.1.2.1.25.1.8.1
+echo gauge
+cat /home/pi/humid.txt
