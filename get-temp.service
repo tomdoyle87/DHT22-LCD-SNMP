@@ -1,0 +1,12 @@
+[Unit]
+Description=Get Temperature & Humidity
+
+[Service]
+User=pi
+ExecStartPre=/usr/bin/python3 /home/pi/DHT-temp-snmp.py &
+ExecStart=/bin/sleep 2 
+ExecStartPost=/usr/bin/python3 /home/pi/DHT-hum-snmp.py &
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
