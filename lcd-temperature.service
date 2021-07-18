@@ -1,0 +1,10 @@
+[Unit]
+Description=LCD - Room Temperture
+
+[Service]
+User=pi
+ExecStart=/usr/bin/python3 /home/pi/display.py &
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
