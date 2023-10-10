@@ -42,10 +42,10 @@ Now add the following to /etc/snmp/snmpd.conf:</br>
 `sudo apt-get install i2c-tools`</br>
 `pip3 install smbus`</br>
 `pip3 install vcgencmd`</br>
-`pip3 datetime`
+`pip3 install datetime`
 
 #### Systemd-Timers
-`sudo cp {get-temp.service,get-temp.timer,lcd-temperature.service,lcd-temperature.timer} /etc/systemd/systemd/system`</br>
+`sudo cp {get-temp.service,get-temp.timer,lcd-temperature.service,lcd-temperature.timer} /etc/systemd/systemd/`</br>
 `sudo systemctl enable get-temp.timer`</br>
 `sudo systemctl start get-temp.timer` </br>
 `sudo systemctl enable lcd-temperature.timer`</br>
