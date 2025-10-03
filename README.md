@@ -58,7 +58,7 @@ https://github.com/fede2cr/raspberry-pi_snmp/tree/master/sensor-DHT</br>
 https://osoyoo.com/2016/12/01/use-raspberry-pi-display-temperaturehumidity-to-i2c-lcd-screen/</br>
 
 
-
+\* On Trixie append --break-system-packages to pip3 commands. Alternativly use a venv, I opted not to as none of the provided python scripts should be run as root. 
 
 
 
