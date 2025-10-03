@@ -1,8 +1,11 @@
 import adafruit_dht
-from board import pin 
+import board # trixie
+
+#from board import pin 
 
 # Initial the dht device, with data pin connected to:
-dht_device = adafruit_dht.DHT22(17)
+#dht_device = adafruit_dht.DHT22(17)
+dht_device = adafruit_dht.DHT22(board.D17) # trixie
 
 temperature = dht_device.temperature
 humidity = dht_device.humidity
