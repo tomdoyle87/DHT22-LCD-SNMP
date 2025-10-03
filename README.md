@@ -52,7 +52,7 @@ Now add the following to /etc/snmp/snmpd.conf:</br>
 `sudo systemctl start lcd-temperature.timer`
 
 #### Sources:
-http://www.kbza.org/2013/07/04/sensor-de-temperatura-snmp-con-raspberry-y-cacti/</br>
+https://web.archive.org/web/20240810031925/http://www.kbza.org/2013/07/04/sensor-de-temperatura-snmp-con-raspberry-y-cacti/</br>
 https://howchoo.com/pi/how-to-make-a-raspberry-pi-smart-alarm-clock</br>
 https://github.com/fede2cr/raspberry-pi_snmp/tree/master/sensor-DHT</br>
 https://osoyoo.com/2016/12/01/use-raspberry-pi-display-temperaturehumidity-to-i2c-lcd-screen/</br>
