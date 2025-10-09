@@ -29,7 +29,6 @@ SCL to GPIO3 (SCL)
 `cp {DHT-hum-snmp.py,DHT-temp-snmp.py} ~`<br/>
 `touch ~/humid.txt ~/temp.txt`<br/>
 `pip3 install adafruit-circuitpython-dht`<br/>
-`pip3 install board`<br/>
 `sudo cp {humid,temp} /usr/local/bin/`<br/>
 `sudo chmod 755 {/usr/local/bin/humid,/usr/local/bin/temp}`
 
